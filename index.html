@@ -319,58 +319,58 @@
                     
                     <article class="project-card" data-animate="fade-up">
                         <div class="project-icon"><i class="fas fa-image"></i></div>
-                        <h3 class="project-title">Diffusion-Based Image Generation Pipeline</h3>
+                        <h3 class="project-title">Deepfake Detection Using SWIN Transformer</h3>
                         <div class="project-tags">
-                            <span>Stable Diffusion</span><span>DreamBooth</span><span>AWS</span><span>PyTorch</span>
+                            <span>SWIN Transformer</span><span>PyTorch</span><span>HuggingFace</span><span>Gradio</span><span>Python</span>
                         </div>
-                        <p class="project-desc">Built a text-to-image synthesis system using Stable Diffusion and DreamBooth, fine-tuning models on branded product datasets to automate personalized marketing asset creation. Orchestrated distributed training on AWS EC2 using PyTorch Lightning (DDP), reducing training latency by 40%.</p>
-                        <!-- <div class="project-links">
+                        <p class="project-desc">Fine-tuned SWIN-Tiny (microsoft/swin-tiny-patch4-window7-224) on 190,000+ real and fake facial images to classify deepfakes with 98.81% accuracy. Built a hierarchical vision transformer pipeline with shifted-window multi-head self-attention for local and global feature extraction. Deployed as a live Gradio web app on Hugging Face Spaces with real-time confidence scores — no sign-up required.</p>
+                        <div class="project-links">
                            
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View GitHub repository"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary" aria-label="View live demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div> -->
+                            <a href="https://github.com/Purnachander-Konda/DeepfakeDetectionUsingSWINTransformer" target="_blank" rel="noopener" class="btn btn-sm btn-outline" aria-label="View GitHub repository"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://huggingface.co/spaces/Purnachander-Konda/deepfake-detection-swin" target="_blank" rel="noopener" class="btn btn-sm btn-primary" aria-label="View live demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
                     </article>
 
                    
                     <article class="project-card" data-animate="fade-up">
                         <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
-                        <h3 class="project-title">Explainable AI Credit Risk Framework</h3>
+                        <h3 class="project-title">Music Genre Classification — CNN & Random Forest</h3>
                         <div class="project-tags">
-                            <span>SHAP</span><span>Fairlearn</span><span>Kubeflow</span><span>Transformers</span>
+                            <span>TensorFlow</span><span>CNN</span><span>scikit-learn</span><span>Librosa</span><span>Gradio</span>
                         </div>
-                        <p class="project-desc">Developed a regulatory-aligned credit scoring framework using Transformers and SHAP, providing auditable model decisions that improved audit report turnaround by 25%. Integrated Fairlearn and LIME to mitigate algorithmic bias, achieving a 15% reduction in disparate impact.</p>
-                        <!-- <div class="project-links">
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div> -->
+                        <p class="project-desc">End-to-end audio classification pipeline categorising music tracks into 10 genres (Blues, Classical, Country, Hip-Hop, Metal, and more) across three model architectures: CNN on raw mel-spectrograms, CNN on feature-engineered spectrograms, and a Random Forest baseline. Extracted MFCCs, spectral centroids, and chroma features using Librosa; deployed interactively via a Gradio web interface with full Google Colab reproducibility notebooks.</p>
+                       <div class="project-links">
+                            <a href="https://github.com/Purnachander-Konda/MusicGenresClassification" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://github.com/Purnachander-Konda/MusicGenresClassification#notebooks" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
                     </article>
 
                     
                     <article class="project-card" data-animate="fade-up">
                         <div class="project-icon"><i class="fas fa-search-dollar"></i></div>
-                        <h3 class="project-title">AI-Powered Fraud Detection System</h3>
+                        <h3 class="project-title">RAG-Based PDF Research Assistant</h3>
                         <div class="project-tags">
-                            <span>GNN</span><span>Neo4j</span><span>Kafka</span><span>Spark</span>
+                            <span>RAG</span><span>FAISS</span><span>Gemini</span><span>Ollama</span><span>Streamlit</span><span>Docker</span>
                         </div>
-                        <p class="project-desc">Architected GNN-based fraud detection models and financial Knowledge Graphs with Neo4j, mapping complex relationships to uncover hidden fraud rings. Engineered high-throughput pipelines using Apache Spark and Kafka, reducing false positives by 27% and boosting anomaly detection by 25%.</p>
-                        <!-- <div class="project-links">
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div> -->
+                        <p class="project-desc">Production-grade Retrieval-Augmented Generation system that lets you upload any PDF and chat with it in natural language. Chunks documents via RecursiveCharacterTextSplitter, embeds with BAAI/bge-small-en-v1.5 SentenceTransformers, and stores vectors in a FAISS index for sub-second semantic retrieval. Supports fully offline inference via Ollama (Mistral 7B / LLaMA / Phi) or cloud via Gemini. Ships with a benchmarked evaluation pipeline — achieving 35% higher recall over keyword search at ~1.2s average query latency. Docker-ready and deployed on Streamlit Cloud.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Purnachander-Konda/RAG-Based-PDF-Assistant" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://pk-rag-based-pdf-assistant.streamlit.app/" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
                     </article>
 
                    
                     <article class="project-card" data-animate="fade-up">
                         <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
-                        <h3 class="project-title">Healthcare Predictive Analytics Platform</h3>
+                        <h3 class="project-title">NexaChat AI — Conversational Assistant with 3D Avatar</h3>
                         <div class="project-tags">
-                            <span>XGBoost</span><span>BERT</span><span>OpenCV</span><span>LSTM</span>
+                            <span>Flask</span><span>Mistral AI</span><span>Babylon.js</span><span>OpenRouter</span><span>Render</span><span>qwen3</span><span>Gemma3</span>
                         </div>
-                        <p class="project-desc">Developed predictive risk models increasing patient engagement by 22% and reducing hospital readmissions by 15%. Engineered Computer Vision pipelines using CNNs and OpenCV for automated medical imaging analysis, improving diagnostic screening speed by 30%.</p>
-                        <!-- <div class="project-links">
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        </div> -->
+                        <p class="project-desc">Full-stack conversational AI web app featuring a 3D interactive robot avatar rendered with Babylon.js, real-time AI chat responses, and a sleek dark UI with smooth animations. Engineered a multi-model fallback chain cycling through Mistral Small 3.1 24B → Qwen3 4B → Gemma 3 4B via OpenRouter API for maximum uptime — gracefully handling provider outages without user disruption. Backend built with Flask + Gunicorn, deployed and production-hardened on Render with environment-aware port binding.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Purnachander-Konda/nexachat-ai" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://nexachat-ai-new.onrender.com/" target="_blank" rel="noopener" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
                     </article>
                 </div>
             </div>
